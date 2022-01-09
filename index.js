@@ -1,9 +1,9 @@
 #!/usr/bin/env /usr/local/bin/node
-const { promisify } = require("util");
-const fs = require("fs");
-const path = require("path");
-const alfy = require("alfy");
-const { format, parseISO } = require("date-fns");
+import { promisify } from "util";
+import fs from "fs";
+import path from "path";
+import alfy from "alfy";
+import { format, parseISO } from "date-fns";
 
 const readFile = promisify(fs.readFile);
 
